@@ -16,19 +16,16 @@ public class Strings
         flag=false;
         i++;
 
-        System.out.println("-----------------");
-        //System.out.println(Integer.toString(i));
-        //System.out.println(Double.toString(f));
-        //System.out.println(Boolean.toString(flag));
+        System.out.println(Integer.toString(i));
+        System.out.println(Double.toString(f));
+        System.out.println(Boolean.toString(flag));
 
         String str1 = "I am a string";
         String str2 = str1;
         String str3 = "I am also a string";
         Boolean stringsEqual = str1.compareTo(str3) == 0;
-        Boolean stringsEqual2 = str1 == str3;
         
         System.out.println("stringsEqual = " + Boolean.toString(stringsEqual));
-        System.out.println("stringsEqual2 = " + Boolean.toString(stringsEqual2));
         
     }
 }
