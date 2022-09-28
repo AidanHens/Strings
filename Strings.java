@@ -28,8 +28,6 @@ public class RenameThisClass
         String str1= "I am a string";
         String str2 = str1;
         String str3 = "I am also a string";
-        Boolean stringsEqual = str1.equals(str2);
-        
-        String[] strArray = {"Alpha", "Bravo", "Charlie", "Delta", "Echo"};
+        Boolean stringsEqual = str1.equals(str2);            
     }
 }
